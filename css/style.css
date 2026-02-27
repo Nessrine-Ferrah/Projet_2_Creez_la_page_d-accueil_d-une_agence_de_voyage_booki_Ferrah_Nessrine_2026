@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -21,8 +23,14 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0px 50px;
     box-sizing: border-box;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap
 }
 
 a {
@@ -35,6 +43,36 @@ a {
     font-size: 22px;
 }
 
+ul {
+    list-style: none;
+}
+
+/****** menu de navigation ***********/
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav img {
+    margin: 30px 0px;
+}
+.menu {
+    display: flex;
+    gap: 68px;
+}
+.menu a {
+    padding-top: 20px;
+}
+
+.menu a:hover {
+    color: var(--main-color);
+    border-top:2px solid var(--main-color);
+}
+
+
+/****** card ***********/
 .card {
     background-color: white;
     border-radius: 20px;
@@ -120,7 +158,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
 
 
 
