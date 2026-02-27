@@ -47,7 +47,7 @@ ul {
     list-style: none;
 }
 
-/****** menu de navigation ***********/
+/****** menu de navigation ************************/
 nav {
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@ nav img {
     border-top:2px solid var(--main-color);
 }
 
-/****** Header *****************************/
+/****** Header *********************************************/
 header {
     display: flex;
     flex-direction: column;
@@ -125,30 +125,20 @@ label {
     border: 1px solid var(--main-color);
  }
 
- /****** Filtres ***********/
-.filtres_conteneur{
+ /****** Filtres ************************/
+ .filtres {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
- .Filtres {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-.Filtres h2 {
+.filtres h2 {
     font-size: 18px;
  }
 
 .filtres_button {
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
     align-items: center;
     gap: 10px;
     padding: 4px 19px;
@@ -156,19 +146,18 @@ label {
     border-radius: 25px;
     background-color: white;
     height: 50px;
-    width: auto;
-}
-.filtres_button {
     font-size: 17px;
     font-weight:700;
 }
 
+
 .filtres_button:hover {
     background-color: var(--filter-bg-color);
 }
+
+/****** Message info ************************/
 .info {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 10px;
 }
