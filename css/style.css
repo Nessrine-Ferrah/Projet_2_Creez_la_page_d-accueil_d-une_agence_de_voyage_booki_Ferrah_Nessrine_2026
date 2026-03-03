@@ -87,6 +87,9 @@ header {
     flex-direction: column;
     gap: 8px;
 }
+header h1 {
+    font-weight: 700;
+}
 
 header p {
     font-size: 16px;
@@ -315,12 +318,12 @@ label {
     gap: 30px;
     border-radius: 20px;
     margin-top: 33px;
-    
+    box-sizing: border-box;
+    width: 25% ;
 }
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    width: 297.5px;
     padding: 0;
 }
 
@@ -358,8 +361,9 @@ footer ul {
 footer li a{
     font-size: 16px;
 }
-footer ul +li {
-    font-weight: 700px;
+
+footer li:first-child {
+    font-weight: 700;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
