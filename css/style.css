@@ -568,7 +568,18 @@ footer li:first-child {
         min-height: 141px;
         max-height: 141px;
     }
-
+/************ footer **************/
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 461px;
+        padding:30px;
+    }
+    footer ul {
+        margin: 0;
+        width: 100%;
+    }
+   
 }
 
 
