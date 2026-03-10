@@ -555,6 +555,19 @@ footer li:first-child {
     .hebergements-cards a {
         width: 100%;
     }
+/******** Activités à Marseille********/
+
+    .activites-cards{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .activites-cards img {
+        min-width: 315px;
+        min-height: 141px;
+        max-height: 141px;
+    }
 
 }
 
