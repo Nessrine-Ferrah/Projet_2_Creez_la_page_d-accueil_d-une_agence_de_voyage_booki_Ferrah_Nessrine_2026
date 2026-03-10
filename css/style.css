@@ -450,7 +450,7 @@ footer li:first-child {
         padding: 0;
     }
     
-/**************Navigation****************/
+/**********Navigation***********/
    nav {
     display: flex;
     flex-direction: column;
@@ -555,31 +555,7 @@ footer li:first-child {
     .hebergements-cards a {
         width: 100%;
     }
-/******** Activités à Marseille********/
 
-    .activites-cards{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .activites-cards img {
-        min-width: 315px;
-        min-height: 141px;
-        max-height: 141px;
-    }
-/************ footer **************/
-    footer {
-        display: flex;
-        flex-direction: column;
-        height: 461px;
-        padding:30px;
-    }
-    footer ul {
-        margin: 0;
-        width: 100%;
-    }
-   
 }
 
 
