@@ -53,15 +53,17 @@ ul {
 }
 
 /****** menu de navigation ************************/
-nav {
+.nav-style {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    width: 100%;
 }
 
-nav img {
+.nav-style img {
     margin: 30px 0px;
 }
+
 .menu {
     display: flex;
     gap: 68px;
@@ -142,7 +144,7 @@ label {
     color: white;
  }
 
- .search-button p {
+ .search-button {
     font-size: 18px;
     font-weight: 700;
     color: white;
@@ -154,12 +156,10 @@ label {
     display: flex;
     align-items: center;
     gap: 15px;
+    width: 100%;
 }
 .filtres {
     flex-wrap: wrap;
-}
-.filtres-contener {
-    width: 100%;
 }
 
 .filtres-contener h2 {
@@ -514,6 +514,7 @@ footer li:first-child {
     form input {
         border-left: none; 
         border-right: none;
+        width: 100%;
     }
     .button_form {
         position: relative;
@@ -522,7 +523,7 @@ footer li:first-child {
         border-radius: 15px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
-    .search-button p{
+    .search-button {
         display: none;
     }
 
@@ -538,7 +539,7 @@ footer li:first-child {
 
     .filtres {
         display: grid;
-        grid-template-columns: 162.5px 162.5px;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 50fr 50fr;
         gap: 20px;
     }
